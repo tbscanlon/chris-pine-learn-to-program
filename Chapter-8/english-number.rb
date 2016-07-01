@@ -1,3 +1,5 @@
+# This abomination doesn't work right for me. /shrug
+
 def english_number(number)
   # We only want numbers from 0-100.
   if number < 0
@@ -116,6 +118,6 @@ puts english_number(10)
 puts english_number(11)
 puts english_number(17)
 puts english_number(32)
-puts english_number(88)
+puts english_number(89)
 puts english_number(99)
 puts english_number(100)
