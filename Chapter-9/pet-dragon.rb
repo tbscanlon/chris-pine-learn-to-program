@@ -10,7 +10,7 @@ class Dragon
   end
 
   def feed
-    puts "You walk #{@name}."
+    puts "You feed #{@name}."
     @stuff_in_belly = 10
     passage_of_time
   end
@@ -108,13 +108,13 @@ class Dragon
 
 end
 
-pet = Dragon.new("Biggie")
-pet.feed
-pet.toss
-pet.walk
-pet.put_to_bed
-pet.rock
-pet.put_to_bed
-pet.put_to_bed
-pet.put_to_bed
-pet.put_to_bed
+# pet = Dragon.new("Biggie")
+# pet.feed
+# pet.toss
+# pet.walk
+# pet.put_to_bed
+# pet.rock
+# pet.put_to_bed
+# pet.put_to_bed
+# pet.put_to_bed
+# pet.put_to_bed
